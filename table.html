@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>                                 
+<html>
+    <head>
+        <title>Table HTML</title>
+    </head> 
+    <body bgcolor="lightyellow">
+        
+        <a href="https://facebook.com/">
+        <img src="C:\Users\LNCTE\Downloads\ddd.jpg"  width="400"     
+        height="235">
+    </a>
+
+       <br> <a href="first.html" target="blank">Click to go back to first web page</a>
+            <ol start="1" type="a" >
+                ordered list.
+                <li>element 1</li>
+                <li>element 2</li>
+            </ol>
+
+            <ul>
+                unordered list.
+                <li>element1'</li>
+                <li>element2'</li>
+            </ul>
+
+        <table>
+            <tr>
+                <td>Column1 header</td>
+                <td>Column2 header</td>
+            </tr> 
+            
+            <tr>
+                <td>new Column1</td>
+                <td>new Column2</td>
+            </tr>   
+        </table>
+
+        <a href="https://www.google.com/">CLick to visit google</a>
+        <br><a href="https://www.capgemini.com/in-en/">Click to visit capgemini page.</a>
+        
+        <form method="POST">
+            <br>Select for multiple options.
+            <br><input type="checkbox" name="language" value="java">
+            <label>java</label>
+            <br><input type="checkbox" name="language" value="python">
+            <label>python</label>
+
+            <br>Select for single option.
+            <br><input type="radio" name="language" value="java" required>
+            <label>java</label>
+            <br><input type="radio" name="language" value="python" required>
+            <label>python</label>
+
+            <div>
+            <br>Select country country_name
+            <input name="country_name"  type="text" list="country"/>
+            <datalist id="country">
+                <option value="India">
+                <option value="US">
+                <option value="Australia"></option>   
+            </datalist>
+        </div>
+
+        <br>select date:<input type="date">
+
+            <div>Select among the streams
+                <select name="stream" >
+                    <option>CSE</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <option>ME</option>
+                </select>
+            </div>
+            
+            <br><label>Chose file to upload</label>
+            <input type="file" name="pic" placeholder="upload pic">
+            <br>
+            <br><div>
+                <label>Username</label>
+                <input type="text" name="username" placeholder="write name" required> 
+                <input type="password" name="pass" placeholder="password" required >
+            </div>
+
+            Enter your age:<input type="number">
+            <br>Enter your email:<input type="email">       
+                <br><input type="submit" value="submit form"><br>
+                <input type="reset" value="click to reset">
+        </form>
+    
+    </body>
+</html>           
