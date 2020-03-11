@@ -1,0 +1,47 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+    <title>Java Script Method</title>
+    <script type="text/javascript">
+
+        var user1={                                     
+            name:'harsh',                           //method
+            id:'1',
+            displayDetails : function(){
+                console.log("name :"+user1.name+" "+"id:"+user1.id);
+            }
+        };
+
+        var user2={                                 //method
+            name:'rahul',
+            id:'2',
+            displayDetails : function(){
+                console.log("name :"+user2.name+" "+"id:"+user2.id);
+            }
+        };
+
+        //var users = [user1,user2];      //Array
+        
+        var users=[];
+        users.push(user1);
+        users.push(user2);          //Pushing value into the users array.
+
+
+        for(var i=0;i<users.length;i++){        
+            var u = users[i]
+            u.displayDetails();             //displaying using arrays.
+        }
+
+      //  function displayUserDetails(){              //function
+       //     user1.displayDetails();             
+        //    user2.displayDetails();
+       // }
+</script>
+</head>
+
+<body>
+    <p>Java Method Function.</p>
+    <a href="#" onclick="displayUserDetails()">Click to display details. </a>
+    
+</body>
+</html>

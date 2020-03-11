@@ -1,0 +1,33 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+    <title>Java Script Equals</title>
+    <script type="text/javascript">
+
+    function equalsProblem(){
+        var doubleEquals='1'==1;                     //for value
+        console.log("doubleEquals :"+doubleEquals);
+
+        var tripleEquals='1'===1;                   //for datatypes
+        console.log("tripleEquals :"+tripleEquals);
+            
+        }
+
+      function object(){
+          var user1={id:'1',name:'harsh',age:'21'};
+          var user2={id:'2',name:'hssd',age:'21'};         //object creation
+
+          console.log("Id :"+user1.id+" "+"age :"+user1.age+" "+"Name :"+user1.name);
+          console.log("Id :"+user2.id+" "+"age :"+user2.age+" "+"Name :"+user2.name);
+      }  
+    
+</script>
+</head>
+
+<body>
+    <p>Java Script Equals.</p>
+    <a href="#" onclick="equalsProblem()">Click to run </a>
+    <br><a href="#" onclick="object()">Click for user details</a>
+    
+</body>
+</html>
